@@ -107,13 +107,19 @@
 <body>
   <main>
   <h1>Privacy Policy for Cubix: Block Master</h1>
-  <p class="updated">Last updated: September 13, 2026</p>
+  <p class="updated">Last updated: October 28, 2026</p>
 
   <div class="summary">
     <h2>Summary</h2>
     <ul>
       <li>Cubix does not ask for an account, a name, an email address, or any other personal detail.</li>
-      <li>The game itself runs entirely offline on your device. Your scores, settings and items never leave your device.</li>
+      <li>
+        <strong>Leaderboards are optional.</strong> Only if you choose to connect with
+        <strong>Google Play Games</strong> on the Leaderboards screen are your Play Games
+        player name, picture and scores used to show the leaderboards. The whole game works
+        without connecting, and Cubix never connects on its own.
+      </li>
+      <li>The game itself runs entirely offline on your device. Your settings and items never leave your device, and your scores leave it only if you choose to connect Google Play Games.</li>
       <li>The only data that leaves the device is what the advertising provider needs in order to deliver an advertisement.</li>
       <li>
         The advertising provider derives an <strong>approximate location</strong> (your
@@ -139,7 +145,8 @@
     <p>
       This Privacy Policy explains what information is and is not processed when
       you play Cubix, including information processed by the advertising provider
-      and by Google Play. It applies to the Cubix application distributed through
+      by Google Play and, if you choose to use it, by Google Play Games. It applies to
+      the Cubix application distributed through
       Google Play.
     </p>
   </section>
@@ -148,8 +155,10 @@
     <h2>2. Information We Do Not Collect</h2>
 
     <p>
-      Cubix has no user accounts and no sign-in of any kind. We do not ask for,
-      and the Game has no ability to obtain:
+      Cubix has no user accounts of its own. The only sign-in is the optional Google
+      Play Games connection described in section 10, which you start yourself and
+      which uses your existing Google Play Games profile. We do not ask for, and the
+      Game has no ability to obtain:
     </p>
 
     <ul>
@@ -167,10 +176,14 @@
     </ul>
 
     <p>
-      The Game requests only a single Android permission, <code>INTERNET</code>,
-      which is used solely to load advertisements and to communicate with Google
-      Play Billing. No permission dialog is ever shown to you, because Cubix
-      requests no permission that requires your approval.
+      Cubix requests no permission that requires your approval, so no permission
+      dialog is ever shown to you. The permissions it holds are granted at install
+      time: <code>INTERNET</code> and network state (to load advertisements and to
+      communicate with Google Play Billing and, if you connect it, Google Play Games),
+      vibration (for haptic feedback, which can be switched off in Settings), Google
+      Play Billing, and system permissions that the Google and advertising libraries
+      use to run their background tasks. None of them gives access to your location,
+      contacts, files, camera or microphone.
     </p>
   </section>
 
@@ -244,14 +257,17 @@
       Consistent with this, the Google Play Data safety declaration for Cubix
       discloses approximate location, app interaction data and technical diagnostic
       data as collected and shared for advertising delivery, performance
-      measurement and fraud prevention. None of it is used for personalized or
+      measurement and fraud prevention, and, only for players who connect Google
+      Play Games, a Play Games player identifier and game scores used for the
+      leaderboards (see section 10). None of it is used for personalized or
       interest-based advertising, and none of it is used to build a profile of you.
     </p>
 
     <p>
       This information is processed by the advertising provider, not stored on our
       own servers. AeroShift Games operates no server and maintains no database of
-      users; there is no back end to which Cubix sends anything.
+      users; there is no back end of ours to which Cubix sends anything. Leaderboard
+      scores, if you connect Google Play Games, are stored by Google.
     </p>
   </section>
 
@@ -355,11 +371,23 @@
       <li>No advertising identifier is collected or transmitted.</li>
       <li>No personal information is requested from the user at any point.</li>
       <li>
+        Google Play Games is never connected automatically. The leaderboards only
+        appear after the player chooses to connect on the Leaderboards screen, and
+        nothing in the Game depends on it. Google decides whether an account may use
+        Google Play Games at all (for example, it may be restricted on a child's
+        supervised account), and controls who can see a Play Games profile.
+      </li>
+      <li>
         No precise location is collected. The approximate location described in
         section 3 is region-level information inferred from an IP address, is not
         stored by us, and is not linked to any identifier or profile.
       </li>
-      <li>The Game contains no chat, no messaging, no user profiles, no social features and no user-generated content.</li>
+      <li>
+        The Game contains no chat, no messaging and no user-generated content, and has
+        no user profiles of its own. The only social feature is the optional Google Play
+        Games leaderboards, which show other players' Play Games names, pictures and
+        scores, and show yours to them according to your Play Games profile visibility.
+      </li>
       <li>
         The Game contains no links out to social media, and no links to external
         websites other than this Privacy Policy itself, which can be opened from the
@@ -395,6 +423,13 @@
     <p>
       In-app purchases can be restricted or disabled on the device through the
       Google Play Store's parental controls and purchase authentication settings.
+    </p>
+
+    <p>
+      If a child has connected Google Play Games, a parent can see and change who can
+      see the child's Play Games profile, and can delete the Play Games data stored
+      for Cubix, in the Google Play Games app (Settings, then "Delete Play Games account
+      &amp; data"). Google Family Link also lets parents manage what a supervised account can use.
     </p>
   </section>
 
@@ -440,6 +475,7 @@
       <li>Language preference (English or Turkish)</li>
       <li>Frame rate preference</li>
       <li>Your high score</li>
+      <li>Whether you chose to connect Google Play Games</li>
       <li>Which cosmetic board themes you have unlocked, and which one is selected</li>
       <li>How many gameplay power-ups you own</li>
       <li>Purchase tokens for purchases already delivered, as described in section 8</li>
@@ -447,8 +483,9 @@
 
     <p>
       The game itself is a fully self-contained package. It loads no content from
-      the internet, contains no web tracking, no cookies, no analytics service and
-      no crash reporting service.
+      the internet except the leaderboards (and the pictures of the players on them)
+      if you connect Google Play Games, and contains no web tracking, no cookies, no
+      analytics service and no crash reporting service of its own.
     </p>
   </section>
 
@@ -496,6 +533,22 @@
           </td>
         </tr>
         <tr>
+          <td>Google Play Games Services (Google LLC) &mdash; optional</td>
+          <td>
+            Leaderboards, only after you choose to connect. Google receives your Play
+            Games player identifier and the scores Cubix submits (your best score, your
+            total daily-puzzle stars and your total lines cleared), and shows them with
+            your Play Games name and picture on the Cubix leaderboards. Google's Play
+            Games SDK may also collect diagnostic and usage data to keep the service
+            working.
+          </td>
+          <td>
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+              policies.google.com/privacy
+            </a>
+          </td>
+        </tr>
+        <tr>
           <td>Google Play Services (Google LLC)</td>
           <td>App distribution and platform functionality</td>
           <td>
@@ -509,7 +562,9 @@
 
     <p>
       We do not integrate any analytics provider, any crash reporting provider, any
-      social network SDK, or any attribution or tracking SDK.
+      social network SDK, or any attribution or tracking SDK. Google Play Games is the
+      only service through which other players can see anything about you, and only
+      if you connect it.
     </p>
   </section>
 
@@ -528,6 +583,7 @@
       <li>Measure advertising performance in aggregate</li>
       <li>Detect and prevent fraud, abuse and invalid advertising traffic</li>
       <li>Deliver in-app purchases you have made</li>
+      <li>Show the leaderboards, if you chose to connect Google Play Games</li>
       <li>Maintain the security, stability and compatibility of the Game</li>
       <li>Comply with legal obligations and platform requirements</li>
     </ul>
@@ -551,7 +607,10 @@
     <p>
       We do not share information with anyone other than the service providers
       listed in section 10, and only to the extent necessary for those services to
-      deliver advertisements, process purchases, and prevent fraud. We do not
+      deliver advertisements, process purchases, show the optional leaderboards, and
+      prevent fraud. If you connect Google Play Games, your Play Games name, picture
+      and scores are visible to other players on the leaderboards, as set by your
+      Play Games profile visibility. We do not
       share information with data brokers.
     </p>
 
@@ -582,8 +641,16 @@
 
     <p>
       Either action permanently erases your scores, settings, themes and power-ups.
-      Because none of it was ever copied off your device, nothing remains anywhere
-      else.
+      Apart from leaderboard scores (below), none of it was ever copied off your
+      device, so nothing remains anywhere else.
+    </p>
+
+    <p>
+      <strong>Leaderboard data.</strong> If you connected Google Play Games, your
+      scores are stored by Google. You can delete the Play Games data stored for
+      Cubix, or your whole Play Games profile, in the Google Play Games app (Settings,
+      then "Delete Play Games account &amp; data"), where you can also remove a single
+      game's data.
     </p>
 
     <p>
@@ -641,8 +708,9 @@
     <h2>15. Security</h2>
 
     <p>
-      All network communication made by the Game &mdash; advertising requests and
-      Google Play Billing &mdash; uses encrypted HTTPS connections. Data stored on
+      All network communication made by the Game &mdash; advertising requests,
+      Google Play Billing and, if you connect it, Google Play Games &mdash; uses
+      encrypted HTTPS connections. Data stored on
       your device is held in the app's private storage area, which other
       applications cannot read.
     </p>
